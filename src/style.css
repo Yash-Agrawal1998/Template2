@@ -9,7 +9,6 @@
 }
 #header
 {
-    width:100%;
     background-color:rgb(207, 203, 203);
     border:2px solid #fff;
 }
@@ -36,9 +35,10 @@
     margin:-3px;
 }
 
-#header li:nth-child(4)
+#header li:hover
 {
     background-color:green;
+    cursor:pointer;
 }
 
 #main
@@ -71,7 +71,7 @@
     background-color:rgb(207, 203, 203);
     display:inline;
     float:left;
-    width:30%;
+    width:29%;
 }
 
 #container2 h2
@@ -84,7 +84,6 @@
 {
     margin:0px 10px;
     word-spacing:5px;
-    margin-bottom:65%;
 }
 
 #footer
@@ -94,6 +93,7 @@
 
 #footer p
 {
+    
     text-align:right;
     padding:20px 25px;
     padding-right:20px;
